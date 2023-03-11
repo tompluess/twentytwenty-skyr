@@ -1,14 +1,14 @@
 /*
 Theme Name: Twenty Seventeen Skyr.ch
-Theme URI: https://wordpress.org/themes/twentyseventeen/
+Theme URI: https://github.com/tompluess/twentytwenty-skyr
 Author: the WordPress team and Tom
 Author URI: https://wordpress.org/
-Template:   twentyseventeen
+Template:   twentytwenty
 Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
 Version: 2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: twentyseventeen
+Text Domain: twentytwenty
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -20,11 +20,11 @@ button,
 input,
 select,
 textarea {
-    color: #333;
-    font-size: 18px;
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 1.66;
+  color: #333;
+  font-size: 18px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.66;
 }
 
 .navigation-top a {
@@ -39,7 +39,8 @@ textarea {
   font-weight: 500;
 }
 
-.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+.page .panel-content .entry-title,
+.page-title {
   font-size: 18px;
   font-size: 1.2rem;
   font-weight: 600;
@@ -59,9 +60,9 @@ textarea {
 }
 
 .site-description {
-	font-size: 1.5em;
-	margin: 0.4em 0;
-	line-height: 1.3;
+  font-size: 1.5em;
+  margin: 0.4em 0;
+  line-height: 1.3;
 }
 
 .site-footer .widget-area {
@@ -82,14 +83,17 @@ textarea {
   .site-branding {
     padding: 1em 0;
   }
-	.site-description  {
-	  margin-top: 20px;
-	}
+
+  .site-description {
+    margin-top: 20px;
+  }
+
   .site-footer {
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.6;
   }
+
   .site-info {
     font-size: 16px;
     font-size: 1rem;
@@ -101,19 +105,23 @@ textarea {
   .site-branding {
     padding: 3em 0;
   }
+
   .site-title {
     font-size: 48px;
     font-size: 3rem;
   }
-  .site-description  {
-		font-size: 2em;
-	  margin-top: 20px;
-	}
+
+  .site-description {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+
   .site-footer {
     font-size: 18px;
     font-size: 1.1rem;
     line-height: 1.6;
   }
+
   .site-footer .widget-column.footer-widget-1 {
     width: 42%;
   }
@@ -124,12 +132,12 @@ textarea {
    Credits to https://wphelp.de/fonts-schriften-einbinden
 */
 @font-face {
-    font-family: 'Barlow';
-    src: url('fonts/Barlow-Medium.woff');
-    src: url('fonts/Barlow-Medium.woff') format('woff'),
-         url('fonts/Barlow-Medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Barlow';
+  src: url('fonts/Barlow-Medium.woff');
+  src: url('fonts/Barlow-Medium.woff') format('woff'),
+    url('fonts/Barlow-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 

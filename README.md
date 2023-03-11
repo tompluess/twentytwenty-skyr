@@ -1,6 +1,6 @@
 # Twenty Seventeen Skyr.ch
 
-A Wordpress child theme to the default theme `twentyseventeen`.
+A Wordpress child theme to the default theme `twentytwenty`.
 
 ## Installation
 
