@@ -1,4 +1,4 @@
-# Twenty Seventeen Skyr.ch
+# Twenty Twenty Skyr.ch
 
 A Wordpress child theme to the default theme `twentytwenty`.
 
