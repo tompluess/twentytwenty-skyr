@@ -132,10 +132,9 @@ textarea {
    Credits to https://wphelp.de/fonts-schriften-einbinden
 */
 @font-face {
-  font-family: 'Barlow';
-  src: url('fonts/Barlow-Medium.woff');
-  src: url('fonts/Barlow-Medium.woff') format('woff'),
-    url('fonts/Barlow-Medium.ttf') format('truetype');
+  font-family: 'MaryHelenJF';
+  src: url('fonts/MaryHelenJF-Regular.ttf');
+  src: url('fonts/MaryHelenJF-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -148,7 +147,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "Barlow", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: "MaryHelenJF", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 */
