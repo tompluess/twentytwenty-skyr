@@ -140,14 +140,26 @@ textarea {
 }
 
 
-/* To use additinal font everywhere, add this example code to the "Additional CSS" section:
+/* To use an additinal font everywhere, add this example code to the "Additional CSS" section:
 
 body,
 button,
 input,
 select,
-textarea {
-    font-family: "MaryHelenJF", "Helvetica Neue", helvetica, arial, sans-serif;
+textarea,
+.entry-content {
+    font-family: "Inter var", apple-system, BlinkMacSystemFont, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+*/
+
+/* To use an addititnal font for h1 and h2 titles, add this example code to the "Additional CSS" section:
+
+h1, h2, .entry-content h2 {
+	font-family: "MaryHelenJF", "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	letter-spacing: 0em;
+  font-weight: 600;
+  line-height: 1.138888889;
 }
 
 */
