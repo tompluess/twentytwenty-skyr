@@ -133,8 +133,9 @@ textarea {
 */
 @font-face {
   font-family: 'MaryHelenJF';
-  src: url('fonts/MaryHelenJF-Regular.ttf');
-  src: url('fonts/MaryHelenJF-Regular.ttf') format('truetype');
+  src: url('fonts/MaryHelenJF-Regular.woff');
+  src: url('fonts/MaryHelenJF-Regular.woff') format('woff'),
+       url('fonts/MaryHelenJF-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
